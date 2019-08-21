@@ -27,7 +27,7 @@ def my_hash_creator(key, value)
     :name => "Pete",
     :age => 17
   }
-  new_hash[:name] = key
+  new_hash[:name => key, :age => value]
   
 end
 
