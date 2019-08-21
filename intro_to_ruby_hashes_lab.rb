@@ -27,6 +27,8 @@ def my_hash_creator(key, value)
     :name => "Pete",
     :age => 17
   }
+  new_hash[:name] = key
+  
 end
 
 def read_from_hash(hash, key)
