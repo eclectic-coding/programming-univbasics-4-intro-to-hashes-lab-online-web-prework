@@ -23,11 +23,7 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  new_hash = {
-    :name => "Pete",
-    :age => 17
-  }
-  new_hash[:name => key, :age => value]
+  new_hash[key => value]
   
 end
 
