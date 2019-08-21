@@ -17,8 +17,8 @@ end
 
 def id_generator
   new_hash = {
-    :id => "Pete",
-    :age => 17
+    :id => 1,
+    :name => "Pete"
   }
 end
 
