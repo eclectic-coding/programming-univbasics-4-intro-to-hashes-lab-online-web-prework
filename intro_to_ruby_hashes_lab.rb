@@ -11,8 +11,7 @@ end
 
 def pioneer
   new_hash = {
-    :name => "Grace Hopper",
-    :age => 17
+    :name => "Grace Hopper"
   }
 end
 
