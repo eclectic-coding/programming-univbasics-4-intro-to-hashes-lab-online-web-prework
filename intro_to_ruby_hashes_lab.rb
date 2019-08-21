@@ -7,11 +7,13 @@ def my_hash
     :name => "Pete",
     :age => 17
   }
-  
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  new_hash = {
+    :name => "Grace Hopper",
+    :age => 17
+  }
 end
 
 def id_generator
