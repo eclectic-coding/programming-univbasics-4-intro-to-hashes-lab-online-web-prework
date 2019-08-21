@@ -3,7 +3,10 @@ def new_hash
 end
 
 def my_hash
-  new
+  new_hash = {
+    :name => "Pete",
+    :age => 17
+  }
   
 end
 
